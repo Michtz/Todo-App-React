@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    height: 200vw;
+    background-image: linear-gradient(to right bottom, white, rgb(208, 226, 221));
+    color: rgb(94, 89, 89);
+}
+  
+        .header{
+            font-family: 'Montserrat', sans-serif;
+            width: 500px;
+            display: flex;
+            flex-flow: column;
+            margin: auto;
+        }
+
+            .header h2{
+                padding: 2rem;
+                text-align: center;
+            }
+
+            /* Ab hier Umschaltbutton Todo => Add */
+
+        .addButton{
+            position: absolute;
+            right: 40px;
+            top: 40px;
+            border: none;
+            font-size: 200%;
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+            .addButton:hover{
+                color: rgb(22, 93, 22);
+            }
+
+                .info{
+                    position: absolute;
+                    font-size: 30%;
+                    right: -4px;
+                }
+
+                .backButton{
+                    font-size: 45%;
+                    border: 1.5px solid gray;
+                    padding: 3px 6px;
+                    border-radius: 5px;
+                    color: rgb(94, 89, 89);
+                    border-radius: 10px;
+                }
+
+                    .backButton:hover{
+                        color: white;
+                        background-color: rgba(119, 115, 115, 0.65);
+                    
+                        
+                    }
+
+
+            /* Ab hier Todo Punkte */
+        .box{
+            margin: 1rem 2rem;
+            padding: 1rem 2rem;
+            border: 1.5px solid rgba(160, 157, 157, 0.791);
+            border-radius: 12px 80px;
+            background-color: rgb(205, 207, 201);
+            text-align: center;
+            max-width: 400px;
+        }
+
+
+        .firstLine{
+            display: flex;
+        }
+
+        .firstLine h1{
+            font-size: 150%;
+            font-weight: lighter;
+            margin-top: 0;
+            text-align: left;
+            padding-left: 40px;
+            width: 300px;
+        }
+
+            .dateTime{
+                display: flex;
+                justify-content: center;
+                margin-top: 0;
+            }
+
+                .dateTime p{
+                    margin: 0;
+                }
+
+                 /* Todo erledigt Button */
+                .doneButton{
+                    display: flex;
+                    margin: 0 10px 0 auto;
+                    padding: 4px 8px;
+                    justify-content: end;
+                    width: max-content;
+                    border-radius: 20px;
+                    cursor: pointer;
+                }
+
+                    .doneButton p{
+                        margin: 0;
+                    }
+
+                    .doneButton:hover{
+                        background-color: rgba(0, 128, 0, 0.300);
+                    }
+
+                    .clock{
+                        position: relative;
+                        top: -5px;
+                        left: 0px;
+                        height: 40px;
+                        width: 40px;
+                        align-items: center;
+                        display: flex;
+                        padding: auto;
+                        cursor: pointer;
+                    }
+
+        
+
+
+            /* Ab hier Add Teil */
+
+            .newTodopionts{
+                background-image: linear-gradient(to right bottom, white, rgb(208, 226, 221));
+                padding: 3rem;
+                max-width: 500px;
+                display: flex;
+                flex-flow: column;
+                margin: auto;
+            }
+
+            .newTodopionts input{
+                
+                font-size: 110%;
+                margin: 1rem 2rem;
+                margin-top: 0.4rem;
+                padding: 0.5rem;
+                border-radius: 15px;
+                border: 1.5px solid gray;
+            }
+
+                .newTodopionts p{
+                    font-size: 120%;
+                    margin: 0rem 2rem ;
+                    padding: 0 0.5rem;
+                }
+
+                .inputField{
+                    margin-top: 7px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+
+                    .reminderDesired{
+                        display: flex;
+                    }
+
+                        /* Text neben Chekckbox */
+                        .reminderDesired p{
+                            margin-left: 0;
+                        }
+
+                        .detectet{
+                            display: flex;
+                            margin-left: 1rem;
+                        }
+
+                        .detectet button{
+                            background-color: rgba(255, 255, 255, 0);
+                            border: 1.5px solid gray;
+                            border-radius: 10px;
+                            font-size: 120%;
+                            color: rgb(94, 89, 89);
+                            cursor: pointer;
+                            letter-spacing: 0.8px;
+                        }
+
+                            .detectet button:hover{
+                                background-color: rgba(119, 115, 115, 0.65);
+                                color: white;
+                                
+                            }
+
+                            .detectet p{
+                                margin-left: 0.5rem;
+                            }
+
+          
+        
+           
+
+
+           
+

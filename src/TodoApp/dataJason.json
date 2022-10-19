@@ -1,0 +1,31 @@
+
+[
+    {
+      "id": 1,
+      "text":"Zahnarzttermin",
+      "date": "2022-10-17",
+      "time": "13:45",
+      "reminder":true
+    },
+    {
+      "id": 2,
+      "text":"Bouldern",
+      "date": "2022-10-20",
+      "time": "14:50",
+      "reminder":false
+    },
+    {
+      "id":3,
+      "text":"Basketball",
+      "date": "2022-10-20",
+      "time": "14:50",
+      "reminder":true
+    },
+    {
+      "id":4,
+      "text":"Programmieren",
+      "date": "2022-10-20",
+      "time": "14:50",
+      "reminder":false
+    }
+  ]
